@@ -10,15 +10,15 @@
 <head>
 	<!-- 헤더에  한글깨짐설정 -->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Home</title>
+	<title>COCOA</title>
 </head>
 <body>
 <h1>
-	COCOA
+	COCOA pront
 </h1>
 
 <P>  현재시간 : ${serverTime}. </P>
 <P><strong>차가운 모니터속 따듯한 코코아 한잔처럼 마음을 녹여줄 개발자들의 커뮤니티</strong></P>
-<img src="/resources/img/logo.jpg" alt="로고"/>
+<img src="/resources/img/logo.png"/>
 </body>
 </html>
