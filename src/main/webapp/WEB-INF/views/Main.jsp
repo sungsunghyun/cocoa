@@ -13,12 +13,13 @@
 	<title>COCOA</title>
 </head>
 <body>
+<img src="/resources/img/logo.png"/>
 <h1>
 	COCOA pront
 </h1>
 
 <P>  현재시간 : ${serverTime}. </P>
 <P><strong>차가운 모니터속 따듯한 코코아 한잔처럼 마음을 녹여줄 개발자들의 커뮤니티</strong></P>
-<img src="/resources/img/logo.png"/>
+
 </body>
 </html>
