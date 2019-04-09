@@ -24,7 +24,7 @@
 	    
 	
 	<dependencies>
-		
+	
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -156,7 +156,14 @@
        <groupId>com.oracle</groupId>
        <artifactId>ojdbc6</artifactId>
        <version>11.2.0.3</version>
-      </dependency>		 
+      </dependency>
+	<!-- 콘솔 쿼리  -->
+	<dependency>
+		<groupId>org.lazyluke</groupId>
+		<artifactId>log4jdbc-remix</artifactId>
+		<version>0.2.7</version>
+	</dependency>
+
 
 	</dependencies>
     <build>
