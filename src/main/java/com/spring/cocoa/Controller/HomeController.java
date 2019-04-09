@@ -1,4 +1,4 @@
-package com.spring.cocoa;
+package com.spring.cocoa.Controller;
 
 import java.text.DateFormat;
 import java.util.Date;
