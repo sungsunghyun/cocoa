@@ -43,9 +43,12 @@ public class HomeController {
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		
 		String formattedDate = dateFormat.format(date);
-		List<Map<String, Object>> list = boardService.selectBoardList(map);
-
-		model.addAttribute("list", list );
+		
+		/*
+		 * List<Map<String, Object>> list = boardService.selectBoardList(map);
+		 * model.addAttribute("list", list );
+		 */
+		
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "Main";
