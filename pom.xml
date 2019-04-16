@@ -130,6 +130,12 @@
 		
 
   <!--dependencies 안쪽에 추가-->
+        <!-- MySQL -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.14</version>
+        </dependency>
       <!-- mybatis-spring -->
       <dependency>
           <groupId>org.mybatis</groupId>
@@ -163,6 +169,13 @@
 		<artifactId>log4jdbc-remix</artifactId>
 		<version>0.2.7</version>
 	</dependency>
+        <!-- Spring-test -->
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${org.springframework-version}</version>
+        </dependency>
 
 
 	</dependencies>

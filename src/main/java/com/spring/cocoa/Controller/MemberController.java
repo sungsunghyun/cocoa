@@ -46,9 +46,10 @@ public class MemberController {
         return mv;
 
 	}
+	
 	@RequestMapping(value = "/member/joinProc/", method = RequestMethod.POST)
 	public ModelAndView joinProc( Model model,RegisterRequest regReq, Errors errors) throws Exception{
-		System.out.println("회원가입 프로세스 param" + regReq);
+		System.out.println("회원가입 프로세스 param" );
         new RegisterRequestValidator().validate(regReq, errors);
         if(errors.hasErrors()) {
             ModelAndView mv = new ModelAndView("member/join");
@@ -65,7 +66,7 @@ public class MemberController {
             ModelAndView mv = new ModelAndView("member/join");
             return mv;
         }
-        ModelAndView mv = new ModelAndView("member/joinProc");
+        ModelAndView mv = new ModelAndView("member/joinConfirm");
         return mv;
 
 	}	

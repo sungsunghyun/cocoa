@@ -12,7 +12,6 @@
 	<title>COCOA</title>
 </head>
 <body>
-
 <style type="text/css">  
 *{margin:0px; padding:0px;}
 .container{margin:0; padding:0; width:100%; text-align:center;}
@@ -39,6 +38,8 @@
 <div class="container">
 <div class="nav_bar">
 	<a href="/"><img src="/resources/img/HeaderLogo.png" alt="Logo" /></a>
+	<a href="/member/login/">로그인</a> 
+	<a href="/member/join/">회원가입</a>
 </div>
 
 

@@ -36,19 +36,17 @@
      , mem_pass
      , mem_name
      , mem_mail
-     , mem_mailaddr
-     , mem_mailcode
+     , retire_yn
      , regdate
      )
       values
       (
       MEMBER_SEQ.NEXTVAL
-       ,#mem_id#
-      ,#mem_pass#
-      ,#mem_name#
-      ,#mem_mail#
-      ,#mem_mailaddr#
-      ,#mem_mailcode#
+      , #{mem_id} 
+      ,#{mem_pass}
+      ,#{mem_name}
+      ,#{mem_mail}
+      , 'N'
       ,SYSDATE
       )   
         ]]>
