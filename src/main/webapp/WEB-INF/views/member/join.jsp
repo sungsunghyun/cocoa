@@ -19,6 +19,7 @@
                 <div class="form-group input-group">
                     <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
                     <form:input type="mem_mail" class="form-control" placeholder="Email" path="mem_mail"/>
+                    <form:errors path="mem_mail"/>
                     
                 </div>
                 <div class="form-group input-group">

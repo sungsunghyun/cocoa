@@ -31,8 +31,7 @@
    /* member.insertMember */
      insert into member
     (
-      seq
-     ,mem_id
+     mem_id
      , mem_pass
      , mem_name
      , mem_mail
@@ -41,13 +40,12 @@
      )
       values
       (
-      MEMBER_SEQ.NEXTVAL
-      , #{mem_id} 
+       #{mem_id} 
       ,#{mem_pass}
       ,#{mem_name}
       ,#{mem_mail}
       , 'N'
-      ,SYSDATE
+      ,now()
       )   
         ]]>
     </insert>

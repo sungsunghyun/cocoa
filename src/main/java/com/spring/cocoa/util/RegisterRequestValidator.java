@@ -28,7 +28,9 @@ public class RegisterRequestValidator implements Validator{
     @Override
     public void validate(Object target, Errors errors) {
         RegisterRequest regReq = (RegisterRequest) target;
-        
+        if(regReq.getMem_id() == null || regReq.getMem_id().trim().isEmpty()) {
+            errors.rejectValue("mem_id", "required", "아이디는 필수 정보 입니다.");
+        }
         if(regReq.getMem_mail() == null || regReq.getMem_mail().trim().isEmpty()) {
             errors.rejectValue("mem_mail", "required", "이메일은 필수 정보 입니다.");
         } else {
