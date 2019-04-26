@@ -4,6 +4,7 @@
 %><%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"
 %><%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"
 %>
+<import resource="classpath:context-security.xml" />
 <%@ page session="false" %>
 <html>
 <head>
