@@ -5,6 +5,7 @@
 %><%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"
 %><%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" 
 %>
+<%@include file="/WEB-INF/include/header.jsp" %>
 <h5 class="panel-header">이메일로 가입하기</h5>
 
 <div class="panel-body">
