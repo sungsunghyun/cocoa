@@ -4,6 +4,8 @@
 %><%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"
 %><%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"
 %>
+<%@include file="/WEB-INF/include/header.jsp" %>
+<import resource="classpath:context-security.xml" />
 <%@ page session="false" %>
 <html>
 <head>
@@ -42,6 +44,7 @@
 	<a href="/"><img src="/resources/img/HeaderLogo.png" alt="Logo" /></a>
 	<a href="/member/login/">로그인</a> 
 	<a href="/member/join/">회원가입</a>
+	<a href="/board/boardList/">게시판</a>
 </div>
 
 
