@@ -1,60 +1,57 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@   page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"
+%><%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" 
+%><%@ taglib uri="http://www.springframework.org/tags" prefix="spring"
+%><%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"
+%><%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"
+%>
 <%@include file="/WEB-INF/include/header.jsp" %>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="EUC-KR">
-<title>Cocoa Board</title>
-</head>
 <body>
-<div class="container">
-	<table class="table table-bordered table-hover">
-		<thead>
-		<tr>
-			<th>¹øÈ£</th>
-			<th>Á¦¸ñ</th>
-			<th>ÀÛ¼ºÀÚ</th>
-			<th>³¯Â¥</th>
-			<th>Á¶È¸¼ö</th>
-		</tr>
-		</thead>
-		<tbody>
-		<tr>
-			<td>3</td>
-			<td>ÄÚÄÚ¾Æ °Ô½ÃÆÇ3</td>
-			<td>¼Û¼ºÇö</td>
-			<td>2019.05.02</td>
-			<td>648</td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td>ÄÚÄÚ¾Æ °Ô½ÃÆÇ2</td>
-			<td>¼Û¼ºÇö</td>
-			<td>2019.05.02</td>
-			<td>648</td>
-		</tr>
-		<tr>
-			<td>1</td>
-			<td>ÄÚÄÚ¾Æ °Ô½ÃÆÇ</td>
-			<td>¼Û¼ºÇö</td>
-			<td>2019.05.02</td>
-			<td>648</td>		
-		</tr>
-		</tbody>
-	</table>
-	<hr/>
-	<a class="btn btn-default pull-right">±Û¾²±â</a>
-	
-	<div class="text-center">
-		<ul class="pagination">
-			<li><a href="#">1</a></li>
-			<li><a href="#">2</a></li>
-			<li><a href="#">3</a></li>
-			<li><a href="#">4</a></li>
-			<li><a href="#">5</a></li>
-		</ul>
+	<div class="container" style="margin-top:100px">
+		<table class="table table-bordered table-hover">
+			<thead align="center">
+			<tr>
+				<th>ë²ˆí˜¸</th>
+				<th>ì œëª©</th>
+				<th>ìž‘ì„±ìž</th>
+				<th>ë‚ ì§œ</th>
+				<th>ì¡°íšŒìˆ˜</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>3</td>
+				<td>ì½”ì½”ì•„ ê²Œì‹œíŒ3</td>
+				<td>ì†¡ì„±í˜„</td>
+				<td>2019.05.02</td>
+				<td>648</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>ì½”ì½”ì•„ ê²Œì‹œíŒ2</td>
+				<td>ì†¡ì„±í˜„</td>
+				<td>2019.05.02</td>
+				<td>648</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>ì½”ì½”ì•„ ê²Œì‹œíŒ</td>
+				<td>ì†¡ì„±í˜„</td>
+				<td>2019.05.02</td>
+				<td>648</td>		
+			</tr>
+			</tbody>
+		</table>
+		<hr/>
+		<a class="btn btn-default pull-right">ê¸€ì“°ê¸°</a>
+		
+		<div class="text-center">
+			<ul class="pagination">
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+			</ul>
+		</div>
 	</div>
-</div>
 </body>
-</html>
