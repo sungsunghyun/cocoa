@@ -7,8 +7,17 @@
 <%@include file="/WEB-INF/include/header.jsp" %>
 <import resource="classpath:context-security.xml" />
 <%@ page session="false" %>
-
+<html>
+<head>
+	<!-- 헤더에  한글깨짐설정 -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>COCOA</title>
+</head>
 <body>
+<style type="text/css">  
+*{margin:0px; padding:0px;}
+.container{margin:0; padding:0; width:100%; text-align:center;}
+.nav_bar {border-bottom:1px solid gray; padding:5px; margin-bottom:50px; text-align:center; vertical-align:middle; position:fixed; width:100%; height:50px; left:0px; top:0px; background-color:white; z-index:1; }
 
 .contents-box {margin-top:60px; }
 .contents{width:60%; margin-left:auto; margin-right:auto; border-left:1px solid gray; border-right:1px solid gray;}
